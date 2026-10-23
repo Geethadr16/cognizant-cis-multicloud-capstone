@@ -97,6 +97,35 @@ The documented output includes the following sample results:
 - Designation-based bonus calculation
 - Database query execution and result verification
 
+
 ## Evidence
 
-Screenshots from the Oracle DBA capstone assignments will be added here as supporting evidence.
+The following screenshots document SQL execution results from the Oracle DBA capstone assignments.
+
+### 1. SQL Table Creation – Student–Course Enrollment System
+
+Created five relational database tables: STUDENT, COURSE, TEACHER, DEPARTMENT, and ENROLLMENT.
+
+The execution output confirms successful table creation.
+
+![SQL Table Creation](Screenshots/SQL-Table-Creation.png)
+
+### 2. Stored Procedure – Employee Bonus Calculation
+
+Reviewed the execution results of a designation-based employee bonus calculation.
+
+The output displays employee records with their designations, salaries, and calculated bonuses.
+
+![Stored Procedure Execution](Screenshots/Stored-Procedure-Execution.png)
+
+---
+
+## Skills Demonstrated
+
+- Relational database design and normalization
+- SQL table creation and execution
+- Primary key and foreign key concepts
+- SQL and PL/SQL stored procedure fundamentals
+- Employee bonus calculation logic
+- Database result verification
+
