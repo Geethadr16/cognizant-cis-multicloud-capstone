@@ -1,19 +1,15 @@
 
-# Linux Administration | Technical Capstone Lab
+# 🐧 Linux Administration | Technical Capstone Lab
 
-## 1. Overview
+## 📌 1. Overview
 
-This lab documents Linux administration exercises completed
-during the Cognizant CIS Multicloud technical training program.
+This lab documents Linux administration exercises completed during the **Cognizant CIS Multicloud technical training program**.
 
-The activities focused on command-line operations, filesystem
-management, permissions, ownership, file searching, and software
-package management.
+The activities focused on command-line operations, filesystem management, permissions, ownership, file searching, and software package management.
 
-The training combined practical Linux exercises with theoretical
-coverage of administration concepts across Linux distributions.
+The training combined practical Linux exercises with theoretical coverage of administration concepts across Linux distributions.
 
-## 2. Lab Environment
+## 🖥️ 2. Lab Environment
 
 | Component | Technology / Tool |
 |---|---|
@@ -24,7 +20,7 @@ coverage of administration concepts across Linux distributions.
 | Software Package | Nginx |
 | Administration Tools | `mkdir`, `chmod`, `chown`, `grep`, `find`, `cp`, `mv`, `rm` |
 
-## 3. Technical Objectives
+## 🎯 3. Technical Objectives
 
 - Perform essential Linux command-line operations.
 - Create and manage files and directories.
@@ -37,7 +33,7 @@ coverage of administration concepts across Linux distributions.
 
 ---
 
-## 4. Assignment 1 — Linux Commands & Administration
+## 💻 4. Assignment 1 — Linux Commands & Administration
 
 ### 4.1 Directory Creation
 
@@ -65,8 +61,7 @@ chmod 755 linux_project
 | Group | `r-x` (5) | Read, execute |
 | Others | `r-x` (5) | Read, execute |
 
-For directories, read permission allows listing directory entries,
-while execute permission allows directory traversal.
+For directories, read permission allows listing directory entries, while execute permission allows directory traversal.
 
 ### 4.3 Ownership Management
 
@@ -76,8 +71,7 @@ The `chown` command changes file or directory ownership.
 sudo chown user:user linux_project
 ```
 
-Here, `user:user` represents an example user and group.
-The specified user and group must exist on the system.
+Here, `user:user` represents an example user and group. The specified user and group must exist on the system.
 
 ### 4.4 Searching Text with grep
 
@@ -91,15 +85,13 @@ This displays lines containing `error` from `logfile.txt`.
 
 ### 4.5 Finding Files with find
 
-The `find` command searches filesystem locations using
-specified conditions.
+The `find` command searches filesystem locations using specified conditions.
 
 ```bash
 find /home -name "*.txt"
 ```
 
-This recursively searches `/home` for entries whose names
-end in `.txt`.
+This recursively searches `/home` for entries whose names end in `.txt`.
 
 To restrict the search to regular files:
 
@@ -107,22 +99,19 @@ To restrict the search to regular files:
 find /home -type f -name "*.txt"
 ```
 
-The second command is an additional example demonstrating
-how the `-type f` option filters regular files.
+The second command is an additional example demonstrating how the `-type f` option filters regular files.
 
 ### Technical Outcome
 
-Practiced foundational Linux commands for directory management,
-permissions, ownership, and searching.
+Practiced foundational Linux commands for directory management, permissions, ownership, and searching.
 
 ---
 
-## 5. Assignment 2 — Directory & File Management
+## 📁 5. Assignment 2 — Directory & File Management
 
 ### Objective
 
-Create a structured filesystem and perform file-management
-operations using Linux commands.
+Create a structured filesystem and perform file-management operations using Linux commands.
 
 ### 5.1 Create Nested Directories
 
@@ -154,15 +143,13 @@ Create ten text files:
 touch file{1..10}.txt
 ```
 
-This command uses Bash brace expansion to create ten files
-in the current working directory.
+This command uses Bash brace expansion to create ten files in the current working directory.
 
 ### 5.3 Copy Files
 
 The original assignment covered copying files using `cp`.
 
-For the directory structure created above, the following
-command copies text files into the backup directory:
+For the directory structure created above, the following command copies text files into the backup directory:
 
 ```bash
 cp *.txt docs/backup/
@@ -180,8 +167,7 @@ The assignment also references the relative-path command:
 cp *.txt backup/
 ```
 
-This form works when an existing `backup` directory is
-available relative to the current working directory.
+This form works when an existing `backup` directory is available relative to the current working directory.
 
 ### 5.4 Move Files
 
@@ -189,8 +175,7 @@ available relative to the current working directory.
 mv file1.txt docs/
 ```
 
-This moves `file1.txt` from the project directory
-into the existing `docs` directory.
+This moves `file1.txt` from the project directory into the existing `docs` directory.
 
 The `mv` command can also rename files and directories.
 
@@ -210,8 +195,7 @@ The `rm` command removes the specified file.
 rmdir empty_directory
 ```
 
-The `rmdir` command removes an empty directory.
-This is included as a related Linux filesystem concept.
+The `rmdir` command removes an empty directory. This is included as a related Linux filesystem concept.
 
 ### 5.6 Absolute and Relative Paths
 
@@ -229,13 +213,11 @@ An absolute path begins at the filesystem root `/`.
 docs/backup
 ```
 
-A relative path is interpreted from the current
-working directory.
+A relative path is interpreted from the current working directory.
 
 ### 5.7 Verification Commands
 
-The following commands can be used to inspect
-filesystem operations:
+The following commands can be used to inspect filesystem operations:
 
 ```bash
 pwd
@@ -249,23 +231,19 @@ find . -type f
 | `ls -l` | List files with permissions and ownership information |
 | `find . -type f` | Find regular files below the current directory |
 
-These are useful verification commands for Linux
-filesystem administration.
+These are useful verification commands for Linux filesystem administration.
 
 ### Technical Outcome
 
-Practiced creating nested directories, managing multiple
-files, copying and moving files, removing files,
-and navigating the Linux filesystem.
+Practiced creating nested directories, managing multiple files, copying and moving files, removing files, and navigating the Linux filesystem.
 
 ---
 
-## 6. Assignment 3 — Linux Package Management
+## 📦 6. Assignment 3 — Linux Package Management
 
 ### Objective
 
-Understand repository-based software installation,
-package removal, and dependency management.
+Understand repository-based software installation, package removal, and dependency management.
 
 ### 6.1 Update Package Information
 
@@ -275,8 +253,7 @@ sudo apt update
 
 Refreshes package information from configured repositories.
 
-This command updates the package index; it does not upgrade
-all installed software.
+This command updates the package index; it does not upgrade all installed software.
 
 ### 6.2 Install Nginx
 
@@ -284,8 +261,7 @@ all installed software.
 sudo apt install nginx
 ```
 
-Installs the Nginx package and resolves required dependencies
-through APT.
+Installs the Nginx package and resolves required dependencies through APT.
 
 ### 6.3 Remove Nginx
 
@@ -293,8 +269,7 @@ through APT.
 sudo apt remove nginx
 ```
 
-Removes the Nginx package while potentially retaining
-package-managed configuration files.
+Removes the Nginx package while potentially retaining package-managed configuration files.
 
 ### 6.4 APT Package Management Concepts
 
@@ -308,8 +283,7 @@ package-managed configuration files.
 
 ### 6.5 Additional Linux Package Management Concepts
 
-Alongside practical APT exercises, the training covered
-RPM-based package management during theory sessions.
+Alongside practical APT exercises, the training covered RPM-based package management during theory sessions.
 
 | Tool | Purpose | Learning Type |
 |---|---|---|
@@ -317,20 +291,17 @@ RPM-based package management during theory sessions.
 | YUM | Repository-based package management on RPM-based Linux distributions | Theory |
 | RPM | Installing, querying, and managing RPM packages | Theory |
 
-This provided an understanding of software management
-across different Linux distributions.
+This provided an understanding of software management across different Linux distributions.
 
 ### Technical Outcome
 
-Practiced APT-based software management and developed
-conceptual knowledge of RPM-based package-management tools.
+Practiced APT-based software management and developed conceptual knowledge of RPM-based package-management tools.
 
 ---
 
-## 7. Verification & Technical Results
+## ✅ 7. Verification & Technical Results
 
-The completed assignments include terminal screenshots
-documenting Linux command-line exercises.
+The completed assignments include terminal screenshots documenting Linux command-line exercises.
 
 | Assignment | Technical Activity | Supporting Evidence |
 |---|---|---|
@@ -338,37 +309,33 @@ documenting Linux command-line exercises.
 | File Management | Nested directories, file creation, copying, moving | Directory management screenshot |
 | Package Management | APT operations and Nginx package management | Package management screenshot |
 
-The commands and explanations document the assignment
-activities and associated Linux administration concepts.
+The commands and explanations document the assignment activities and associated Linux administration concepts.
 
 ---
 
-## 8. Supporting Evidence
+## 📸 8. Supporting Evidence
 
 ### 8.1 Linux Commands
 
-Terminal-based command execution covering foundational
-Linux administration operations.
+Terminal-based command execution covering foundational Linux administration operations.
 
 ![Linux Commands](Screenshots/Linux-Commands.png)
 
 ### 8.2 Directory and File Management
 
-Directory creation, filesystem organization,
-and file-management operations.
+Directory creation, filesystem organization, and file-management operations.
 
 ![Directory and File Management](Screenshots/Directory-Management.png)
 
 ### 8.3 Package Management
 
-APT package-management operations and associated
-terminal output.
+APT package-management operations and associated terminal output.
 
 ![Package Management](Screenshots/Package-Management.png)
 
 ---
 
-## 9. Key Learning Outcomes
+## 🧠 9. Key Learning Outcomes
 
 - Practiced Linux command-line administration.
 - Understood filesystem hierarchy and directory organization.
@@ -378,21 +345,14 @@ terminal output.
 - Understood absolute and relative filesystem paths.
 - Practiced software package management using APT.
 - Learned the differences between APT, YUM, and RPM.
-- Strengthened Linux fundamentals relevant to cloud
-  infrastructure and DevOps engineering.
+- Strengthened Linux fundamentals relevant to cloud infrastructure and DevOps engineering.
 
 ---
 
-## 10. Lab Summary
+## 🚀 10. Lab Summary
 
-This Linux administration capstone covered command-line
-operations, filesystem management, permissions, ownership,
-searching, and software package management.
+This Linux administration capstone covered command-line operations, filesystem management, permissions, ownership, searching, and software package management.
 
-The practical assignments and supporting screenshots
-demonstrate foundational Linux administration skills
-developed during Cognizant CIS Multicloud technical training.
+The practical assignments and supporting screenshots demonstrate foundational Linux administration skills developed during Cognizant CIS Multicloud technical training.
 
-The exercises strengthened skills relevant to Linux
-system administration, cloud infrastructure,
-and DevOps engineering.
+The exercises strengthened skills relevant to Linux system administration, cloud infrastructure, and DevOps engineering.
