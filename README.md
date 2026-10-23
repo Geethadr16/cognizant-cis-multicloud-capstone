@@ -1,5 +1,5 @@
 
-# ☁️ Cloud Infrastructure & IT Operations | Hands-on Lab Portfolio
+**☁️ Cognizant CIS Multicloud | Technical Capstone Portfolio
 
 ### Linux • Windows Server • Networking • Virtualization • Monitoring • Cloud Fundamentals
 
