@@ -1,181 +1,335 @@
 
 # ☁️ Cognizant CIS Multicloud | Technical Capstone Portfolio
 
-### Linux • Windows Server • Networking • Virtualization • Monitoring • Cloud Fundamentals
+### Enterprise Infrastructure • Systems Administration • Networking • Virtualization • Monitoring
 
-A technical portfolio documenting hands-on labs, configuration exercises, troubleshooting workflows, and infrastructure administration concepts completed during **Cognizant CIS Multicloud Engineer Trainee training (2026)**.
+A structured technical repository documenting **Cognizant CIS Multicloud Engineer Trainee capstone assignments (2026)** across enterprise infrastructure technologies.
 
-This repository demonstrates foundational skills relevant to **Cloud Support Engineering, Infrastructure Operations, System Administration, and IT Support**.
+The repository consolidates hands-on laboratory exercises, technical configurations, verification results, and conceptual assignments completed during the training program.
 
----
-
-## 🎯 Portfolio Overview
-
-The portfolio brings together 10 technical areas covering operating systems, networking, virtualization, monitoring, automation, storage, middleware, and databases.
-
-Each lab folder contains technical documentation, assignment objectives, implementation or learning steps, and available screenshots of configuration or execution results.
-
-**Training Environment:** Windows Server, Linux, VMware ESXi, Hyper-V, Cisco Packet Tracer, PowerShell, SolarWinds Orion, Microsoft SCOM, Apache Tomcat, and SQL.
-
-> **Scope:** These are training and capstone lab exercises, not claims of production infrastructure ownership. Practical implementation and conceptual learning are identified within the individual lab documents.
+**Focus:** Infrastructure fundamentals, technical documentation, configuration workflows, and practical exposure to enterprise IT environments.
 
 ---
 
-## 🧭 Explore the Technical Labs
+## 📌 Project Overview
 
-| Domain | Lab Documentation | Technical Focus |
-|---|---|---|
-| Windows Infrastructure | [Active Directory & DNS](AD-DNS/README.md) | DNS roles, lookup zones, DNS records, name resolution, organizational units |
-| Operating Systems | [Linux Administration](Linux/README.md) | Linux commands, file management, permissions, package management |
-| Networking | [Network Configuration](Networking/README.md) | IP addressing, VLANs, routing, DHCP, DNS, connectivity verification |
-| Virtualization | [VMware & Hyper-V](VMware-HyperV/README.md) | ESXi, virtual machines, storage, templates, migration and backup concepts |
-| Windows Administration | [Windows Server](Windows-Server/README.md) | Windows Server administration, directory services, system configuration |
-| Automation | [PowerShell](PowerShell/README.md) | Administrative scripting and command-line automation exercises |
-| Storage Infrastructure | [Storage & Backup](Storage-and-Backup/README.md) | RAID, SAN/NAS/DAS, iSCSI, backup technologies and recovery concepts |
-| Infrastructure Monitoring | [Monitoring Tools](Monitoring/README.md) | SolarWinds Orion, monitoring alerts, SCOM agents, management packs |
-| Middleware | [Apache Tomcat & Web Servers](Middleware/README.md) | Tomcat connectivity, client-server architecture, HTTP Server concepts |
-| Databases | [Oracle DBA & SQL](Oracle-DBA/README.md) | Normalization, relational tables, primary/foreign keys, stored procedures |
+| Attribute | Details |
+|---|---|
+| Program | Cognizant CIS Multicloud |
+| Role | Engineer Trainee |
+| Training Period | April – September 2026 |
+| Project Type | Technical Training & Capstone Assignments |
+| Technical Domains | 10 |
+| Documentation | Individual lab READMEs and supporting screenshots |
+
+### Objectives
+
+- Understand enterprise infrastructure architecture and administration.
+- Practice operating system, network, and virtualization configuration.
+- Explore infrastructure monitoring, automation, and storage technologies.
+- Study middleware and relational database operations.
+- Document implementation workflows and validate available lab results.
+
+> **Documentation Note:** This repository represents training and capstone activities. Individual sections distinguish practical exercises, configuration results, and conceptual study. It does not represent ownership of production systems.
 
 ---
 
-## 🛠️ Technical Competencies
+## 🧭 Technical Lab Directory
 
-### Operating Systems & System Administration
-- Windows Server 2022 and Linux fundamentals
-- Active Directory Domain Services, DNS, DHCP
-- File systems, permissions, package management
-- System configuration and administrative utilities
+Each module links to its technical documentation, assignment objectives, workflows, and available evidence.
 
-### Networking & Connectivity
-- TCP/IP, OSI model, subnetting
-- VLANs, routing, DHCP, DNS
-- Network connectivity verification using ping, traceroute and nslookup
+| # | Technical Domain | Capstone Module | Primary Technologies & Concepts |
+|---|---|---|---|
+| 01 | Identity & Name Resolution | [Active Directory & DNS](AD-DNS/README.md) | AD DS, DNS zones, A/AAAA/CNAME/MX records, OUs, nslookup |
+| 02 | Linux Systems | [Linux Administration](Linux/README.md) | Linux CLI, file operations, permissions, package management |
+| 03 | Network Infrastructure | [Networking](Networking/README.md) | TCP/IP, VLANs, routing, DHCP, DNS, wireless configuration |
+| 04 | Virtualization | [VMware & Hyper-V](VMware-HyperV/README.md) | VMware ESXi, virtual machines, VM storage, templates, Hyper-V |
+| 05 | Windows Infrastructure | [Windows Server](Windows-Server/README.md) | Windows Server administration, AD DS, DNS, DHCP, GPO |
+| 06 | Infrastructure Automation | [PowerShell](PowerShell/README.md) | PowerShell commands, administrative scripting fundamentals |
+| 07 | Storage & Data Protection | [Storage & Backup](Storage-and-Backup/README.md) | RAID, DAS/NAS/SAN, iSCSI, NetBackup, Rubrik |
+| 08 | Infrastructure Observability | [Monitoring Tools](Monitoring/README.md) | SolarWinds Orion, SCOM, alerts, monitoring agents, management packs |
+| 09 | Middleware & Web Infrastructure | [Middleware](Middleware/README.md) | Apache Tomcat, HTTP Server, client-server communication, IPC |
+| 10 | Database Fundamentals | [Oracle DBA](Oracle-DBA/README.md) | SQL, normalization, primary/foreign keys, stored procedures |
+
+---
+
+## 🛠️ Technical Environment & Concepts
+
+### Operating Systems & Identity Services
+
+- Windows Server 2022 administration fundamentals
+- Linux command-line operations and package management
+- Active Directory Domain Services (AD DS)
+- DNS, DHCP, organizational units, and Group Policy concepts
+
+### Network Infrastructure
+
+- TCP/IP and OSI networking fundamentals
+- IP addressing, subnetting, VLANs, and routing
 - Network device configuration exercises
+- Connectivity and name-resolution verification
+- Cisco Packet Tracer network simulations
 
-### Virtualization & Cloud Fundamentals
+### Virtualization & Infrastructure
+
 - VMware ESXi and vCenter fundamentals
-- Virtual machine provisioning and management
-- Hyper-V architecture and configuration concepts
-- AWS and Microsoft Azure foundational knowledge
+- Virtual machine provisioning and configuration
+- VMware networking and storage concepts
+- VM templates, migration, and backup strategies
+- Microsoft Hyper-V architecture and management concepts
 
-### Monitoring & IT Operations
-- SolarWinds Orion network device monitoring
-- Monitoring dashboards and alerts
-- Microsoft SCOM agent deployment and management packs
-- Incident, problem, change and service management fundamentals
+### Monitoring & Operational Visibility
 
-### Storage, Automation & Databases
-- DAS, NAS, SAN, RAID and iSCSI
-- Backup and recovery concepts
-- PowerShell administrative scripting
-- SQL, relational database design and stored procedure fundamentals
+- SolarWinds Orion network monitoring
+- Network device discovery and dashboard interpretation
+- Alert configuration and monitoring results
+- Microsoft System Center Operations Manager (SCOM)
+- Monitoring agents and management packs
+- Availability, performance, and SLA monitoring concepts
 
-### Middleware & Web Infrastructure
-- Apache Tomcat connectivity verification
-- Java web application hosting concepts
-- Client-server communication
-- Apache HTTP Server, virtual hosts and load balancing fundamentals
+### Storage & Backup
 
----
+- Direct Attached Storage (DAS)
+- Network Attached Storage (NAS)
+- Storage Area Networks (SAN)
+- RAID levels and iSCSI
+- NetBackup and Rubrik architecture
+- Backup types, recovery strategies, and storage concepts
 
-## 🔍 Selected Lab Highlights
+### Automation, Middleware & Databases
 
-### 01 | Active Directory & DNS
-
-Documented Windows Server DNS role configuration, forward and reverse lookup zones, DNS record management, client configuration and name-resolution verification.
-
-**Evidence:** DNS configuration, DNS records, nslookup results and Active Directory organizational structure.
-
-[View AD-DNS Lab →](AD-DNS/README.md)
-
-### 02 | Networking & Connectivity
-
-Worked through network configuration assignments involving routers, switches, IP addressing, VLANs, wireless networks, DHCP/DNS and connectivity testing.
-
-**Evidence:** Network topology, ping results, VLAN/SSID configurations and DHCP/DNS configuration.
-
-[View Networking Lab →](Networking/README.md)
-
-### 03 | Infrastructure Monitoring
-
-Documented SolarWinds Orion network monitoring and Microsoft SCOM workflows, including monitored devices, alerts, agent deployment and management packs.
-
-**Evidence:** SolarWinds monitoring dashboard, alert results, added network device, SCOM agent deployment and management packs.
-
-[View Monitoring Lab →](Monitoring/README.md)
-
-### 04 | Virtualization
-
-Covered VMware ESXi installation and administration, VM management, templates, storage configuration, migration and backup strategies, alongside Hyper-V concepts.
-
-[View Virtualization Lab →](VMware-HyperV/README.md)
-
-### 05 | SQL & Database Fundamentals
-
-Documented a Student–Course Enrollment System using relational tables and normalization principles, together with an employee bonus calculation stored procedure exercise.
-
-**Evidence:** SQL table creation output and employee bonus execution results.
-
-[View Oracle DBA Lab →](Oracle-DBA/README.md)
+- PowerShell administrative scripting fundamentals
+- Apache Tomcat installation and connectivity concepts
+- HTTP Server configuration and web hosting fundamentals
+- Client-server communication and inter-process communication
+- SQL table creation and relational data modeling
+- Database normalization and stored procedure fundamentals
 
 ---
 
-## 🗂️ Repository Structure
+## 🔬 Selected Capstone Work
+
+The following modules provide examples of configuration-oriented assignments and documented technical results.
+
+### 01 | Windows Server – Active Directory & DNS
+
+**Objective:** Understand enterprise identity organization and DNS-based name resolution.
+
+**Documented Activities:**
+
+- DNS Server role installation and configuration
+- Forward and reverse lookup zone creation
+- DNS record management using A, AAAA, CNAME, and MX records
+- DNS client configuration
+- Name-resolution verification using `nslookup` and `ipconfig`
+- Active Directory organizational unit structure
+
+**Evidence Available:**
+DNS installation, lookup zones, records, client configuration, name-resolution results, and OU structure screenshots.
+
+[Explore AD-DNS Documentation →](AD-DNS/README.md)
+
+---
+
+### 02 | Network Configuration & Connectivity
+
+**Objective:** Explore network segmentation, addressing, and communication between connected devices.
+
+**Documented Activities:**
+
+- Router, switch, and wireless configuration exercises
+- IP addressing and network segmentation
+- VLAN and inter-VLAN routing concepts
+- DHCP and DNS configuration
+- Network connectivity testing using ping and traceroute
+
+**Evidence Available:**
+Network topology, ping results, VLAN/SSID configuration, and DHCP/DNS configuration screenshots.
+
+[Explore Networking Documentation →](Networking/README.md)
+
+---
+
+### 03 | VMware ESXi & Hyper-V
+
+**Objective:** Understand hypervisor architecture, virtual machine management, and infrastructure virtualization.
+
+**Documented Topics:**
+
+- ESXi installation and network configuration
+- Virtual machine provisioning and administration
+- Storage repository configuration
+- VM templates and deployment
+- Startup/shutdown management
+- Migration and backup strategies
+- Hyper-V virtualization concepts
+
+[Explore Virtualization Documentation →](VMware-HyperV/README.md)
+
+---
+
+### 04 | SolarWinds Orion & Microsoft SCOM
+
+**Objective:** Explore infrastructure visibility, network monitoring, alerts, and managed system monitoring.
+
+**Documented Activities:**
+
+- Adding a network device in SolarWinds Orion
+- Reviewing network monitoring dashboards
+- Monitoring alert results
+- SCOM agent deployment workflows
+- Management pack configuration concepts
+
+**Evidence Available:**
+SolarWinds network device, monitoring dashboard and alert results; SCOM agent deployment and management pack screenshots.
+
+[Explore Monitoring Documentation →](Monitoring/README.md)
+
+---
+
+### 05 | Apache Tomcat & Middleware
+
+**Objective:** Understand middleware services, web application hosting, and communication between systems.
+
+**Documented Topics:**
+
+- Apache Tomcat server configuration concepts
+- Java web application hosting fundamentals
+- `JAVA_HOME` and `CATALINA_HOME`
+- Server connectivity through `localhost:8080`
+- Client-server communication and IPC
+- Apache HTTP Server, virtual hosts, and load balancing concepts
+
+**Evidence Available:**
+Apache Tomcat welcome page demonstrating server connectivity.
+
+[Explore Middleware Documentation →](Middleware/README.md)
+
+---
+
+### 06 | Relational Database Design & Stored Procedures
+
+**Objective:** Explore structured database design and SQL-based business logic.
+
+**Case Study 1 — Student–Course Enrollment System**
+
+- Five related entities: Student, Course, Teacher, Department, Enrollment
+- Database normalization concepts: 1NF, 2NF, 3NF
+- Primary key and foreign key relationships
+- SQL table creation and execution verification
+
+**Case Study 2 — Employee Bonus Calculation**
+
+- Employee table and sample records
+- Designation-based bonus calculation
+- Stored procedure fundamentals
+- SQL execution results
+
+**Evidence Available:**
+SQL table creation output and employee bonus calculation results.
+
+[Explore Oracle DBA Documentation →](Oracle-DBA/README.md)
+
+---
+
+## 📁 Repository Organization
 
 ```text
 cloud-infrastructure-lab-portfolio/
 │
 ├── AD-DNS/
+│   ├── README.md
+│   └── Screenshots/
+│
 ├── Linux/
+│   ├── README.md
+│   └── Screenshots/
+│
 ├── Networking/
+│   ├── README.md
+│   └── Screenshots/
+│
 ├── VMware-HyperV/
 ├── Windows-Server/
 ├── PowerShell/
 ├── Storage-and-Backup/
 ├── Monitoring/
+│   ├── README.md
+│   └── Screenshots/
+│
 ├── Middleware/
+│   ├── README.md
+│   └── Screenshots/
+│
 ├── Oracle-DBA/
+│   ├── README.md
+│   └── Screenshots/
 │
 └── README.md
 ```
 
-Each technical folder contains a dedicated README with relevant assignment documentation and supporting evidence where available.
+**Documentation Approach**
+
+Each module is organized around:
+
+1. Assignment objective and scope
+2. Technologies and concepts covered
+3. Configuration or learning workflow
+4. Available execution and verification evidence
+5. Key technical learning outcomes
 
 ---
 
-## 📚 Training Background
+## 📖 Training Context
 
-**Cognizant — Engineer Trainee, CIS Multicloud**  
-April 2026 – September 2026
+**Cognizant Technology Solutions**  
+**Engineer Trainee – CIS Multicloud**  
+**April 2026 – September 2026**
 
-Completed structured technical training across infrastructure administration, networking, virtualization, monitoring, storage, databases, middleware, and cloud fundamentals.
+The training program covered enterprise infrastructure technologies, including:
 
-The capstone assignments provided exposure to enterprise infrastructure technologies through guided exercises, configuration tasks, and technical documentation.
+- Operating systems and systems administration
+- Network configuration and troubleshooting fundamentals
+- VMware and Hyper-V virtualization
+- Storage, backup, and recovery concepts
+- Infrastructure monitoring tools
+- PowerShell automation fundamentals
+- Middleware and database technologies
+- Cloud computing fundamentals
+
+Capstone assignments were used to reinforce technical concepts through guided exercises, configuration activities, and documentation.
 
 ---
 
-## 🚀 Continuing Development
+## 🔗 Engineering Learning Roadmap
 
-Current learning priorities include:
+This repository establishes the infrastructure foundation supporting my ongoing learning in **Cloud Engineering and DevOps Engineering**.
 
-- Strengthening AWS and Azure administration fundamentals
-- Building additional cloud deployment and troubleshooting labs
-- Expanding PowerShell and Linux automation practice
-- Developing practical monitoring and infrastructure support scenarios
+My next areas of technical development include:
+
+- AWS and Azure cloud infrastructure
+- Linux administration and shell scripting
+- Git and GitHub workflows
+- Docker and containerization
+- CI/CD pipeline development
+- Terraform and Infrastructure as Code
+- Kubernetes fundamentals
+- Cloud monitoring and observability
+
+These technologies will be demonstrated through separate projects as practical implementations are completed.
 
 ---
 
-## 👩‍💻 About the Author
+## 👩‍💻 Author
 
 **Geetha D R**  
-Electronics & Communication Engineering Graduate | Former Cognizant CIS Multicloud Engineer Trainee
+B.E. – Electronics & Communication Engineering  
+Former Engineer Trainee – Cognizant CIS Multicloud
 
-Interested in opportunities involving:
+**Current Learning Focus:** Cloud Engineering | DevOps Engineering | Infrastructure Automation
 
-**Cloud Support Engineering | Infrastructure Support | System Administration | IT Operations | Network Support**
-
-**GitHub:** [Geethadr16](https://github.com/Geethadr16)
+**GitHub:** [github.com/Geethadr16](https://github.com/Geethadr16)
 
 ---
 
-*This portfolio is maintained as a technical learning and practical lab documentation resource.*
+*Technical capstone documentation | Cognizant CIS Multicloud Training – 2026*
