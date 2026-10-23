@@ -1,30 +1,20 @@
 
-# Infrastructure Monitoring | SolarWinds & Microsoft SCOM
+# 📊 Infrastructure Monitoring | SolarWinds & Microsoft SCOM
 
-## 1. Overview
+## 📌 1. Overview
 
-This module documents infrastructure monitoring assignments
-completed during the Cognizant CIS Multicloud technical
-capstone training program.
+This module documents infrastructure monitoring assignments completed during the **Cognizant CIS Multicloud technical capstone training program**.
 
-The activities focused on network device monitoring,
-monitoring platform configuration, alert management,
-network traffic analysis, agent deployment, management
-packs, reporting, and service availability tracking.
+The activities focused on network device monitoring, monitoring platform configuration, alert management, network traffic analysis, agent deployment, management packs, reporting, and service availability tracking.
 
 The training covered two monitoring platforms:
 
-- **SolarWinds Orion:** Network discovery, node monitoring,
-  alert configuration, and dashboard-based visibility.
-- **Microsoft System Center Operations Manager (SCOM):**
-  Server monitoring, agent deployment, management packs,
-  notifications, and reporting.
+- **SolarWinds Orion:** Network discovery, node monitoring, alert configuration, and dashboard-based visibility.
+- **Microsoft System Center Operations Manager (SCOM):** Server monitoring, agent deployment, management packs, notifications, and reporting.
 
-The assignments introduced monitoring workflows used
-in IT infrastructure operations, troubleshooting,
-and service management.
+The assignments introduced monitoring workflows used in IT infrastructure operations, troubleshooting, and service management.
 
-## 2. Tools & Technologies
+## 🛠️ 2. Tools & Technologies
 
 | Technology / Tool | Purpose |
 |---|---|
@@ -39,7 +29,7 @@ and service management.
 | NetFlow | Network traffic flow analysis |
 | Web Consoles | Monitoring dashboards and administration |
 
-## 3. Technical Objectives
+## 🎯 3. Technical Objectives
 
 - Understand infrastructure monitoring architecture.
 - Explore installation and configuration of monitoring tools.
@@ -54,20 +44,17 @@ and service management.
 
 ---
 
-## 4. SolarWinds — Assignment 1: Installation & Configuration
+## ⚙️ 4. SolarWinds — Assignment 1: Installation & Configuration
 
 ### 4.1 SolarWinds Orion Installation
 
-**Objective:** Set up SolarWinds Orion for centralized
-network monitoring.
+**Objective:** Set up SolarWinds Orion for centralized network monitoring.
 
 The assignment documented the following steps:
 
 1. Downloaded the SolarWinds Orion installer.
-2. Installed the monitoring platform on a Windows Server
-   or virtual machine.
-3. Selected the required monitoring modules, including
-   Network Performance Monitor (NPM).
+2. Installed the monitoring platform on a Windows Server or virtual machine.
+3. Selected the required monitoring modules, including Network Performance Monitor (NPM).
 4. Completed the installation wizard.
 5. Accessed the Orion web console.
 
@@ -79,11 +66,9 @@ The assignment documented accessing the web console at:
 http://localhost:8787
 ```
 
-This address represents the local console endpoint
-recorded in the training report.
+This address represents the local console endpoint recorded in the training report.
 
-The web console provides access to monitoring dashboards,
-managed devices, alerts, and administration settings.
+The web console provides access to monitoring dashboards, managed devices, alerts, and administration settings.
 
 ### 4.3 Initial Configuration
 
@@ -97,17 +82,15 @@ The documented initial setup included:
 
 ### Technical Outcome
 
-Explored SolarWinds Orion installation, monitoring module
-selection, database configuration, and web console access.
+Explored SolarWinds Orion installation, monitoring module selection, database configuration, and web console access.
 
 ---
 
-## 5. SolarWinds — Assignment 2: Network Device Monitoring
+## 🌐 5. SolarWinds — Assignment 2: Network Device Monitoring
 
 ### 5.1 Adding Network Devices
 
-**Objective:** Discover and monitor network devices
-through SolarWinds Orion.
+**Objective:** Discover and monitor network devices through SolarWinds Orion.
 
 The assignment documented this workflow:
 
@@ -126,14 +109,11 @@ The assignment documented this workflow:
 | SNMP | Collect device information and supported performance metrics |
 | ICMP | Check network reachability and response behavior |
 
-SNMP is commonly used to retrieve supported network
-device metrics, while ICMP can help determine whether
-a device is reachable.
+SNMP is commonly used to retrieve supported network device metrics, while ICMP can help determine whether a device is reachable.
 
 ### 5.3 Monitoring Alerts
 
-The assignment covered creating alert conditions
-for common infrastructure issues.
+The assignment covered creating alert conditions for common infrastructure issues.
 
 **Example Alert Conditions:**
 
@@ -154,8 +134,7 @@ The documented workflow included:
 
 ### 5.5 Monitoring Dashboard
 
-SolarWinds dashboards provide a centralized view
-of monitored infrastructure.
+SolarWinds dashboards provide a centralized view of monitored infrastructure.
 
 The training covered reviewing:
 
@@ -166,31 +145,25 @@ The training covered reviewing:
 
 ### Technical Outcome
 
-Practiced network device addition and explored
-monitoring protocols, alert conditions,
-and dashboard-based infrastructure visibility.
+Practiced network device addition and explored monitoring protocols, alert conditions, and dashboard-based infrastructure visibility.
 
 ---
 
-## 6. SolarWinds — Assignment 3: Network Traffic Analysis
+## 📈 6. SolarWinds — Assignment 3: Network Traffic Analysis
 
 ### 6.1 Network Traffic Analyzer (NTA)
 
-SolarWinds Network Traffic Analyzer is used to
-analyze network traffic flows and bandwidth usage.
+SolarWinds Network Traffic Analyzer is used to analyze network traffic flows and bandwidth usage.
 
-It helps administrators understand traffic patterns
-and identify potential network bottlenecks.
+It helps administrators understand traffic patterns and identify potential network bottlenecks.
 
 ### 6.2 NetFlow Monitoring
 
 The assignment documented the following workflow:
 
 1. Enable NetFlow monitoring.
-2. Configure supported network devices to export
-   traffic flow information.
-3. Review traffic information through the
-   monitoring dashboard.
+2. Configure supported network devices to export traffic flow information.
+3. Review traffic information through the monitoring dashboard.
 4. Analyze bandwidth utilization and traffic patterns.
 
 ### 6.3 Traffic Analysis Concepts
@@ -205,20 +178,15 @@ The assignment documented the following workflow:
 
 ### Technical Outcome
 
-Studied network traffic analysis, NetFlow monitoring,
-bandwidth utilization, and traffic visibility
-using SolarWinds NTA.
+Studied network traffic analysis, NetFlow monitoring, bandwidth utilization, and traffic visibility using SolarWinds NTA.
 
 ---
 
-## 7. SCOM — Assignment 1: Installation & Initial Setup
+## 🖥️ 7. SCOM — Assignment 1: Installation & Initial Setup
 
 ### 7.1 Microsoft SCOM Overview
 
-Microsoft System Center Operations Manager (SCOM)
-is an infrastructure monitoring platform used
-to monitor the health, availability, and performance
-of supported systems and applications.
+Microsoft System Center Operations Manager (SCOM) is an infrastructure monitoring platform used to monitor the health, availability, and performance of supported systems and applications.
 
 ### 7.2 SCOM Installation
 
@@ -240,30 +208,23 @@ The documented initial setup included:
 
 ### 7.4 Management Group Concept
 
-A SCOM management group organizes monitoring
-components and managed systems under a common
-administrative environment.
+A SCOM management group organizes monitoring components and managed systems under a common administrative environment.
 
-It supports centralized monitoring configuration,
-health information, and alert management.
+It supports centralized monitoring configuration, health information, and alert management.
 
 ### Technical Outcome
 
-Explored SCOM architecture, installation,
-management server configuration, and
-monitoring console navigation.
+Explored SCOM architecture, installation, management server configuration, and monitoring console navigation.
 
 ---
 
-## 8. SCOM — Assignment 2: Agent Deployment
+## 🔗 8. SCOM — Assignment 2: Agent Deployment
 
 ### 8.1 Monitoring Agents
 
-SCOM agents collect monitoring information
-from supported managed computers.
+SCOM agents collect monitoring information from supported managed computers.
 
-Agents enable the monitoring platform to
-observe system health and performance.
+Agents enable the monitoring platform to observe system health and performance.
 
 ### 8.2 Agent Discovery & Deployment
 
@@ -289,23 +250,19 @@ SCOM agents support monitoring of:
 
 ### Verification Evidence
 
-The assignment includes a screenshot documenting
-the SCOM agent deployment results.
+The assignment includes a screenshot documenting the SCOM agent deployment results.
 
 ### Technical Outcome
 
-Explored managed computer discovery,
-agent deployment, and agent-based
-infrastructure monitoring.
+Explored managed computer discovery, agent deployment, and agent-based infrastructure monitoring.
 
 ---
 
-## 9. SCOM — Assignment 3: Management Packs
+## 📦 9. SCOM — Assignment 3: Management Packs
 
 ### 9.1 Management Pack Overview
 
-Management Packs (MPs) define monitoring
-configurations for supported technologies.
+Management Packs (MPs) define monitoring configurations for supported technologies.
 
 They can contain:
 
@@ -333,35 +290,29 @@ The documented workflow included:
 
 ### 9.4 Custom Management Packs
 
-The assignment also covered creating a custom
-management pack for specific monitoring requirements.
+The assignment also covered creating a custom management pack for specific monitoring requirements.
 
 The documented activities included:
 
 - Creating a custom management pack.
 - Defining monitoring rules.
-- Associating monitoring configurations
-  with selected systems.
+- Associating monitoring configurations with selected systems.
 
 ### Verification Evidence
 
-The assignment contains a screenshot of
-the SCOM management packs interface.
+The assignment contains a screenshot of the SCOM management packs interface.
 
 ### Technical Outcome
 
-Explored management pack administration,
-monitoring rules, and customized
-infrastructure monitoring configurations.
+Explored management pack administration, monitoring rules, and customized infrastructure monitoring configurations.
 
 ---
 
-## 10. SCOM — Assignment 4: Notifications & Reporting
+## 🔔 10. SCOM — Assignment 4: Notifications & Reporting
 
 ### 10.1 Alert Notifications
 
-SCOM notifications help administrators receive
-information about monitored events and issues.
+SCOM notifications help administrators receive information about monitored events and issues.
 
 The assignment covered:
 
@@ -383,8 +334,7 @@ The assignment covered:
 
 ### 10.3 Reporting
 
-The training covered using monitoring reports
-to evaluate infrastructure health and performance.
+The training covered using monitoring reports to evaluate infrastructure health and performance.
 
 **Availability Reports**
 
@@ -405,31 +355,25 @@ Used to review:
 
 ### 10.4 SLA Tracking
 
-A Service Level Agreement (SLA) defines
-agreed service expectations.
+A Service Level Agreement (SLA) defines agreed service expectations.
 
-The assignment used an example availability
-target of:
+The assignment used an example availability target of:
 
 ```text
 Target Availability: 99.9%
 ```
 
-Monitoring reports can support evaluation
-of service performance against agreed targets.
+Monitoring reports can support evaluation of service performance against agreed targets.
 
-An SLA target is a service objective,
-not a measured availability result.
+An SLA target is a service objective, not a measured availability result.
 
 ### Technical Outcome
 
-Studied monitoring notifications,
-subscriber management, reporting,
-and SLA-based service availability tracking.
+Studied monitoring notifications, subscriber management, reporting, and SLA-based service availability tracking.
 
 ---
 
-## 11. Verification & Technical Results
+## ✅ 11. Verification & Technical Results
 
 | Area | Assignment Activity | Evidence / Coverage |
 |---|---|---|
@@ -444,60 +388,50 @@ and SLA-based service availability tracking.
 | Notifications | Email alerts, subscribers, notification rules | Assignment documentation |
 | Reporting & SLA | Availability, performance and SLA concepts | Assignment documentation |
 
-The capstone documents monitoring workflows
-and provides supporting screenshots for
-selected configuration and verification activities.
+The capstone documents monitoring workflows and provides supporting screenshots for selected configuration and verification activities.
 
 ---
 
-## 12. Supporting Evidence
+## 📸 12. Supporting Evidence
 
 ### 12.1 SolarWinds — Adding a Network Device
 
-The screenshot documents adding a network device
-through SolarWinds Orion for monitoring.
+The screenshot documents adding a network device through SolarWinds Orion for monitoring.
 
 ![SolarWinds Added Network Device](Screenshots/SolarWinds%20%E2%80%94%20Added%20network%20device.png)
 
 ### 12.2 SolarWinds — Monitoring Dashboard
 
-The screenshot displays the SolarWinds monitoring
-dashboard used to review network devices
-and monitoring status.
+The screenshot displays the SolarWinds monitoring dashboard used to review network devices and monitoring status.
 
 ![SolarWinds Monitoring Dashboard](Screenshots/SolarWinds-%20Final%20monitoring%20dashboard.png)
 
 ### 12.3 Monitoring — Alert Result
 
-The screenshot documents a monitoring alert result,
-supporting the alert-management exercise.
+The screenshot documents a monitoring alert result, supporting the alert-management exercise.
 
 ![Monitoring Alert Result](Screenshots/Monitoring-Alert%20result.png)
 
 ### 12.4 SCOM — Agent Deployment
 
-The screenshot documents SCOM agent deployment
-results for managed computer monitoring.
+The screenshot documents SCOM agent deployment results for managed computer monitoring.
 
 ![SCOM Agent Deployment](Screenshots/SCOM%20%E2%80%94%20Agent%20deployment%20result.png)
 
 ### 12.5 SCOM — Management Packs
 
-The screenshot displays SCOM management packs
-used to define monitoring configurations
-and workflows.
+The screenshot displays SCOM management packs used to define monitoring configurations and workflows.
 
 ![SCOM Management Packs](Screenshots/SCOM%20%E2%80%94%20Management%20packs.png)
 
 ---
 
-## 13. Key Learning Outcomes
+## 🧠 13. Key Learning Outcomes
 
 - Explored SolarWinds Orion installation and configuration.
 - Practiced adding network devices for monitoring.
 - Understood SNMP and ICMP monitoring fundamentals.
-- Studied alert configuration for CPU utilization
-  and device availability.
+- Studied alert configuration for CPU utilization and device availability.
 - Reviewed centralized infrastructure monitoring dashboards.
 - Explored NetFlow-based network traffic analysis.
 - Understood SolarWinds NTA bandwidth and traffic metrics.
@@ -510,22 +444,12 @@ and workflows.
 
 ---
 
-## 14. Lab Summary
+## 🚀 14. Lab Summary
 
-This monitoring capstone covered SolarWinds Orion,
-Network Traffic Analyzer, and Microsoft System Center
-Operations Manager.
+This monitoring capstone covered SolarWinds Orion, Network Traffic Analyzer, and Microsoft System Center Operations Manager.
 
-The assignments included monitoring platform setup,
-network device discovery, alert management,
-traffic analysis, agent deployment, management packs,
-notifications, reporting, and SLA concepts.
+The assignments included monitoring platform setup, network device discovery, alert management, traffic analysis, agent deployment, management packs, notifications, reporting, and SLA concepts.
 
-The documented exercises and supporting screenshots
-demonstrate foundational knowledge of infrastructure
-monitoring workflows relevant to IT operations,
-cloud infrastructure, and system administration.
+The documented exercises and supporting screenshots demonstrate foundational knowledge of infrastructure monitoring workflows relevant to IT operations, cloud infrastructure, and system administration.
 
-The module strengthened understanding of monitoring,
-operational visibility, infrastructure health,
-and proactive issue identification.
+The module strengthened understanding of monitoring, operational visibility, infrastructure health, and proactive issue identification.
