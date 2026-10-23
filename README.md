@@ -78,6 +78,15 @@ Each module links to its technical documentation, assignment objectives, workflo
 - VM templates, migration, and backup strategies
 - Microsoft Hyper-V architecture and management concepts
 
+
+### Cloud Computing Fundamentals – AWS & Microsoft Azure
+
+- **Cloud Computing Models:** IaaS, PaaS, SaaS, public, private, and hybrid cloud concepts.
+- **Amazon Web Services (AWS):** EC2, S3, IAM, VPC, Security Groups, Regions, and Availability Zones.
+- **Microsoft Azure:** Azure Virtual Machines, Azure Storage, Virtual Networks, and identity management fundamentals.
+- **Cloud Infrastructure:** Virtual machines, cloud storage, networking, access management, and shared responsibility concepts.
+- **Cloud Security:** Identity and Access Management (IAM), network security, and access control fundamentals.
+
 ### Monitoring & Operational Visibility
 
 - SolarWinds Orion network monitoring
@@ -235,7 +244,7 @@ SQL table creation output and employee bonus calculation results.
 ## 📁 Repository Organization
 
 ```text
-cloud-infrastructure-lab-portfolio/
+cognizant-cis-multicloud-capstone/
 │
 ├── AD-DNS/
 │   ├── README.md
@@ -250,9 +259,21 @@ cloud-infrastructure-lab-portfolio/
 │   └── Screenshots/
 │
 ├── VMware-HyperV/
+│   ├── README.md
+│   └── Screenshots/
+│
 ├── Windows-Server/
+│   ├── README.md
+│   └── Screenshots/
+│
 ├── PowerShell/
+│   ├── README.md
+│   └── Screenshots/
+│
 ├── Storage-and-Backup/
+│   ├── README.md
+│   └── Screenshots/
+│
 ├── Monitoring/
 │   ├── README.md
 │   └── Screenshots/
@@ -267,6 +288,7 @@ cloud-infrastructure-lab-portfolio/
 │
 └── README.md
 ```
+
 
 **Documentation Approach**
 
@@ -283,7 +305,7 @@ Each module is organized around:
 ## 📖 Training Context
 
 **Cognizant Technology Solutions**  
-**Engineer Trainee – CIS Multicloud**  
+**Engineer Trainee – CIS Multicloud Practice**  
 **April 2026 – September 2026**
 
 The training program covered enterprise infrastructure technologies, including:
@@ -295,7 +317,7 @@ The training program covered enterprise infrastructure technologies, including:
 - Infrastructure monitoring tools
 - PowerShell automation fundamentals
 - Middleware and database technologies
-- Cloud computing fundamentals
+- AWS and Microsoft Azure cloud computing fundamentals
 
 Capstone assignments were used to reinforce technical concepts through guided exercises, configuration activities, and documentation.
 
