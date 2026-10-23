@@ -22,7 +22,7 @@ coverage of administration concepts across Linux distributions.
 | Shell | Linux shell |
 | Package Manager | APT |
 | Software Package | Nginx |
-| Administration Tools | mkdir, chmod, chown, grep, find, cp, mv |
+| Administration Tools | `mkdir`, `chmod`, `chown`, `grep`, `find`, `cp`, `mv`, `rm` |
 
 ## 3. Technical Objectives
 
@@ -61,9 +61,9 @@ chmod 755 linux_project
 
 | Category | Permission | Access |
 |---|---|---|
-| Owner | rwx (7) | Read, write, execute |
-| Group | r-x (5) | Read, execute |
-| Others | r-x (5) | Read, execute |
+| Owner | `rwx` (7) | Read, write, execute |
+| Group | `r-x` (5) | Read, execute |
+| Others | `r-x` (5) | Read, execute |
 
 For directories, read permission allows listing directory entries,
 while execute permission allows directory traversal.
@@ -77,7 +77,7 @@ sudo chown user:user linux_project
 ```
 
 Here, `user:user` represents an example user and group.
-The specified accounts must exist on the system.
+The specified user and group must exist on the system.
 
 ### 4.4 Searching Text with grep
 
@@ -106,6 +106,9 @@ To restrict the search to regular files:
 ```bash
 find /home -type f -name "*.txt"
 ```
+
+The second command is an additional example demonstrating
+how the `-type f` option filters regular files.
 
 ### Technical Outcome
 
@@ -139,6 +142,14 @@ The `-p` option creates missing parent directories.
 
 ### 5.2 Create Multiple Text Files
 
+Navigate to the project directory:
+
+```bash
+cd /home/student/linux_practice
+```
+
+Create ten text files:
+
 ```bash
 touch file{1..10}.txt
 ```
@@ -148,12 +159,29 @@ in the current working directory.
 
 ### 5.3 Copy Files
 
+The original assignment covered copying files using `cp`.
+
+For the directory structure created above, the following
+command copies text files into the backup directory:
+
+```bash
+cp *.txt docs/backup/
+```
+
+**Technical Explanation:**
+
+- `cp` copies files.
+- `*.txt` selects matching text files in the current directory.
+- `docs/backup/` specifies the destination directory.
+
+The assignment also references the relative-path command:
+
 ```bash
 cp *.txt backup/
 ```
 
-This copies matching `.txt` files into an existing `backup`
-directory relative to the current location.
+This form works when an existing `backup` directory is
+available relative to the current working directory.
 
 ### 5.4 Move Files
 
@@ -161,8 +189,10 @@ directory relative to the current location.
 mv file1.txt docs/
 ```
 
-This moves `file1.txt` into an existing `docs` directory
-relative to the current location.
+This moves `file1.txt` from the project directory
+into the existing `docs` directory.
+
+The `mv` command can also rename files and directories.
 
 ### 5.5 Remove Files and Directories
 
@@ -172,14 +202,16 @@ Remove a file:
 rm file2.txt
 ```
 
-Remove an empty directory:
+The `rm` command removes the specified file.
+
+**Additional reference command:**
 
 ```bash
 rmdir empty_directory
 ```
 
-These commands operate on paths relative to the current
-directory unless absolute paths are provided.
+The `rmdir` command removes an empty directory.
+This is included as a related Linux filesystem concept.
 
 ### 5.6 Absolute and Relative Paths
 
@@ -197,9 +229,13 @@ An absolute path begins at the filesystem root `/`.
 docs/backup
 ```
 
-A relative path is interpreted from the current working directory.
+A relative path is interpreted from the current
+working directory.
 
-### Verification Commands
+### 5.7 Verification Commands
+
+The following commands can be used to inspect
+filesystem operations:
 
 ```bash
 pwd
@@ -207,13 +243,20 @@ ls -l
 find . -type f
 ```
 
-These commands can be used to inspect the working directory,
-file permissions, and available files.
+| Command | Purpose |
+|---|---|
+| `pwd` | Display the current working directory |
+| `ls -l` | List files with permissions and ownership information |
+| `find . -type f` | Find regular files below the current directory |
+
+These are useful verification commands for Linux
+filesystem administration.
 
 ### Technical Outcome
 
-Practiced creating directory structures, managing multiple
-files, and navigating the Linux filesystem.
+Practiced creating nested directories, managing multiple
+files, copying and moving files, removing files,
+and navigating the Linux filesystem.
 
 ---
 
@@ -241,7 +284,8 @@ all installed software.
 sudo apt install nginx
 ```
 
-Installs the Nginx package and resolves required dependencies.
+Installs the Nginx package and resolves required dependencies
+through APT.
 
 ### 6.3 Remove Nginx
 
@@ -294,9 +338,8 @@ documenting Linux command-line exercises.
 | File Management | Nested directories, file creation, copying, moving | Directory management screenshot |
 | Package Management | APT operations and Nginx package management | Package management screenshot |
 
-The commands shown throughout this README explain the
-documented exercises. Additional command variations are
-included where useful for technical understanding.
+The commands and explanations document the assignment
+activities and associated Linux administration concepts.
 
 ---
 
@@ -311,8 +354,8 @@ Linux administration operations.
 
 ### 8.2 Directory and File Management
 
-Directory creation, filesystem organization, and
-file-management operations.
+Directory creation, filesystem organization,
+and file-management operations.
 
 ![Directory and File Management](Screenshots/Directory-Management.png)
 
@@ -349,3 +392,7 @@ searching, and software package management.
 The practical assignments and supporting screenshots
 demonstrate foundational Linux administration skills
 developed during Cognizant CIS Multicloud technical training.
+
+The exercises strengthened skills relevant to Linux
+system administration, cloud infrastructure,
+and DevOps engineering.
