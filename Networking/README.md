@@ -1,22 +1,15 @@
 
-# Networking Administration | Technical Capstone Lab
+# 🌐 Networking Administration | Technical Capstone Lab
 
-## 1. Overview
+## 📌 1. Overview
 
-This module documents networking assignments completed
-during the Cognizant CIS Multicloud technical training
-program.
+This module documents networking assignments completed during the **Cognizant CIS Multicloud technical training program**.
 
-The activities covered network device configuration,
-IP addressing, network segmentation, VLANs, inter-VLAN
-routing, wireless networking, DHCP, DNS, network
-classification, and connectivity troubleshooting.
+The activities covered network device configuration, IP addressing, network segmentation, VLANs, inter-VLAN routing, wireless networking, DHCP, DNS, network classification, and connectivity troubleshooting.
 
-The training combined network simulation exercises
-with theoretical study of networking technologies
-used in enterprise infrastructure environments.
+The training combined network simulation exercises with theoretical study of networking technologies used in enterprise infrastructure environments.
 
-## 2. Lab Environment & Technologies
+## 🖥️ 2. Lab Environment & Technologies
 
 | Component | Purpose |
 |---|---|
@@ -40,7 +33,7 @@ used in enterprise infrastructure environments.
 - SNMP-independent basic network connectivity testing
 - Network segmentation and access control concepts
 
-## 3. Technical Objectives
+## 🎯 3. Technical Objectives
 
 - Understand the roles of common network devices.
 - Design a basic wired and wireless network topology.
@@ -56,12 +49,11 @@ used in enterprise infrastructure environments.
 
 ---
 
-## 4. Assignment 1 — Network Device Configuration
+## 🔌 4. Assignment 1 — Network Device Configuration
 
 ### 4.1 Home / Lab Network Setup
 
-**Objective:** Understand the components required
-to build a small wired and wireless network.
+**Objective:** Understand the components required to build a small wired and wireless network.
 
 The assignment covered a network consisting of:
 
@@ -83,8 +75,7 @@ The assignment covered a network consisting of:
                   Wi-Fi Clients
 ```
 
-This is a conceptual representation of the
-network components studied in the assignment.
+This is a conceptual representation of the network components studied in the assignment.
 
 ### 4.2 Network Device Functions
 
@@ -97,16 +88,13 @@ network components studied in the assignment.
 
 ### 4.3 IP Addressing
 
-IP addresses identify network interfaces and enable
-communication between devices.
+IP addresses identify network interfaces and enable communication between devices.
 
-The assignment covered assigning IP addresses
-and understanding the purpose of network segmentation.
+The assignment covered assigning IP addresses and understanding the purpose of network segmentation.
 
 ### 4.4 Network Segmentation
 
-Network segmentation divides a network into
-smaller logical or physical sections.
+Network segmentation divides a network into smaller logical or physical sections.
 
 Potential benefits include:
 
@@ -125,8 +113,7 @@ The assignment covered two diagnostic utilities.
 ping 192.168.1.1
 ```
 
-Ping sends ICMP Echo Requests to test whether
-the target responds.
+Ping sends ICMP Echo Requests to test whether the target responds.
 
 **Traceroute**
 
@@ -142,31 +129,23 @@ On Linux:
 traceroute 192.168.1.1
 ```
 
-Traceroute helps identify the network path
-toward a destination, subject to device
-and network filtering behavior.
+Traceroute helps identify the network path toward a destination, subject to device and network filtering behavior.
 
-The addresses above are illustrative commands
-consistent with the lab's documented network.
+The addresses above are illustrative commands consistent with the lab's documented network.
 
 ### Technical Outcome
 
-Explored basic network topology design,
-device connectivity, IP addressing,
-network segmentation, and troubleshooting.
+Explored basic network topology design, device connectivity, IP addressing, network segmentation, and troubleshooting.
 
 ---
 
-## 5. Assignment 2 — VLAN & Wireless Network Configuration
+## 🔀 5. Assignment 2 — VLAN & Wireless Network Configuration
 
 ### 5.1 VLAN Fundamentals
 
-A Virtual Local Area Network (VLAN) divides
-a switched network into separate logical
-broadcast domains.
+A Virtual Local Area Network (VLAN) divides a switched network into separate logical broadcast domains.
 
-VLANs allow devices to be grouped logically
-even when they share physical switching infrastructure.
+VLANs allow devices to be grouped logically even when they share physical switching infrastructure.
 
 ### 5.2 VLAN Segmentation
 
@@ -181,19 +160,15 @@ even when they share physical switching infrastructure.
          Department A  Department B
 ```
 
-VLAN segmentation helps organize traffic
-and provides a foundation for access control.
+VLAN segmentation helps organize traffic and provides a foundation for access control.
 
-Devices in separate VLANs generally require
-Layer 3 routing to communicate.
+Devices in separate VLANs generally require Layer 3 routing to communicate.
 
 ### 5.3 Inter-VLAN Routing
 
-Inter-VLAN routing enables communication
-between different VLANs.
+Inter-VLAN routing enables communication between different VLANs.
 
-The assignment covered routing between VLANs
-using a router or Layer 3 switch.
+The assignment covered routing between VLANs using a router or Layer 3 switch.
 
 **Technical Concepts:**
 
@@ -204,8 +179,7 @@ using a router or Layer 3 switch.
 
 ### 5.4 VLAN Security Policies
 
-The training covered VLAN-based network
-segmentation and access restrictions.
+The training covered VLAN-based network segmentation and access restrictions.
 
 Security concepts included:
 
@@ -214,14 +188,11 @@ Security concepts included:
 - Protecting sensitive network segments
 - Applying appropriate access-control policies
 
-VLAN separation alone is not a complete
-security control; traffic restrictions require
-suitable routing and access-control configuration.
+VLAN separation alone is not a complete security control; traffic restrictions require suitable routing and access-control configuration.
 
 ### 5.5 Wireless Network Configuration
 
-The assignment covered configuring a wireless
-network using WPA3 security concepts.
+The assignment covered configuring a wireless network using WPA3 security concepts.
 
 **Wireless Security Topics:**
 
@@ -239,25 +210,19 @@ An SSID identifies a wireless network.
 | Private SSID | Access for authorized internal users |
 | Guest SSID | Limited access for visitors or external users |
 
-The assignment explored using separate SSIDs
-to organize wireless access and improve
-network security.
+The assignment explored using separate SSIDs to organize wireless access and improve network security.
 
 ### Technical Outcome
 
-Studied VLAN segmentation, inter-VLAN routing,
-network access restrictions, WPA3 security,
-and wireless SSID configuration.
+Studied VLAN segmentation, inter-VLAN routing, network access restrictions, WPA3 security, and wireless SSID configuration.
 
 ---
 
-## 6. Assignment 3 — DHCP & DNS Configuration
+## 📡 6. Assignment 3 — DHCP & DNS Configuration
 
 ### 6.1 DHCP Overview
 
-Dynamic Host Configuration Protocol (DHCP)
-automatically provides IP configuration
-to network clients.
+Dynamic Host Configuration Protocol (DHCP) automatically provides IP configuration to network clients.
 
 Typical DHCP settings include:
 
@@ -268,8 +233,7 @@ Typical DHCP settings include:
 
 ### 6.2 DHCP Address Pool
 
-A DHCP pool defines the range of IP addresses
-available for assignment to clients.
+A DHCP pool defines the range of IP addresses available for assignment to clients.
 
 **Conceptual DHCP Workflow**
 
@@ -285,17 +249,13 @@ available for assignment to clients.
         DHCP Client
 ```
 
-The assignment covered creating DHCP address
-pools for automatic IP allocation.
+The assignment covered creating DHCP address pools for automatic IP allocation.
 
 ### 6.3 DHCP Reservation
 
-A DHCP reservation associates a specific
-client identifier, commonly a MAC address,
-with a designated IP address.
+A DHCP reservation associates a specific client identifier, commonly a MAC address, with a designated IP address.
 
-Reservations are useful for devices requiring
-predictable network addressing, such as:
+Reservations are useful for devices requiring predictable network addressing, such as:
 
 - Printers
 - Servers
@@ -303,9 +263,7 @@ predictable network addressing, such as:
 
 ### 6.4 DNS Overview
 
-Domain Name System (DNS) translates domain
-names into corresponding resource records,
-including IP addresses.
+Domain Name System (DNS) translates domain names into corresponding resource records, including IP addresses.
 
 **Example**
 
@@ -319,9 +277,7 @@ Domain Name: google.com
    IP Address Result
 ```
 
-DNS enables users and applications to
-access resources using domain names
-instead of memorizing IP addresses.
+DNS enables users and applications to access resources using domain names instead of memorizing IP addresses.
 
 ### 6.5 DHCP and DNS Integration
 
@@ -332,24 +288,19 @@ DHCP and DNS serve complementary purposes.
 | DHCP | Provides network configuration to clients |
 | DNS | Resolves domain names and other DNS records |
 
-Together, they simplify client network
-configuration and resource access.
+Together, they simplify client network configuration and resource access.
 
 ### Technical Outcome
 
-Explored DHCP scope configuration,
-automatic IP address allocation,
-DHCP reservations, and DNS name resolution.
+Explored DHCP scope configuration, automatic IP address allocation, DHCP reservations, and DNS name resolution.
 
 ---
 
-## 7. Assignment 4 — Network Type Classification
+## 🌍 7. Assignment 4 — Network Type Classification
 
 ### 7.1 Network Types
 
-The assignment covered network classification
-based on geographical coverage,
-connectivity technology, and usage.
+The assignment covered network classification based on geographical coverage, connectivity technology, and usage.
 
 | Network Type | Full Form | Description |
 |---|---|---|
@@ -363,8 +314,7 @@ connectivity technology, and usage.
 
 ### 7.2 LAN
 
-A LAN connects devices within a relatively
-small geographical area.
+A LAN connects devices within a relatively small geographical area.
 
 **Examples:**
 
@@ -376,8 +326,7 @@ Common technologies include Ethernet and Wi-Fi.
 
 ### 7.3 WAN
 
-A WAN connects networks over larger
-geographical distances.
+A WAN connects networks over larger geographical distances.
 
 **Examples:**
 
@@ -385,13 +334,11 @@ geographical distances.
 - Global enterprise networks
 - The Internet
 
-WAN connectivity can use public,
-private, or service-provider networks.
+WAN connectivity can use public, private, or service-provider networks.
 
 ### 7.4 WLAN
 
-A WLAN uses wireless networking technologies
-to connect devices within a local area.
+A WLAN uses wireless networking technologies to connect devices within a local area.
 
 **Common Components:**
 
@@ -422,8 +369,7 @@ A MAN connects networks across a metropolitan area.
 
 ### 7.6 PAN
 
-A PAN connects personal devices over
-short distances.
+A PAN connects personal devices over short distances.
 
 **Examples:**
 
@@ -433,8 +379,7 @@ short distances.
 
 ### 7.7 CAN
 
-A CAN connects multiple local networks
-within a campus or organizational site.
+A CAN connects multiple local networks within a campus or organizational site.
 
 **Examples:**
 
@@ -444,8 +389,7 @@ within a campus or organizational site.
 
 ### 7.8 SOHO
 
-A SOHO network supports the networking
-requirements of a home office or small business.
+A SOHO network supports the networking requirements of a home office or small business.
 
 Typical components include:
 
@@ -454,24 +398,19 @@ Typical components include:
 - Wireless access point
 - PCs, laptops, and printers
 
-SOHO networks commonly combine wired
-and wireless connectivity.
+SOHO networks commonly combine wired and wireless connectivity.
 
 ### Technical Outcome
 
-Developed an understanding of network types,
-their coverage, architecture, applications,
-and connectivity characteristics.
+Developed an understanding of network types, their coverage, architecture, applications, and connectivity characteristics.
 
 ---
 
-## 8. Assignment 5 — Network Device Configuration Simulation
+## ⚙️ 8. Assignment 5 — Network Device Configuration Simulation
 
 ### 8.1 Objective
 
-Explore network device configuration
-and verify connectivity between
-simulated network components.
+Explore network device configuration and verify connectivity between simulated network components.
 
 ### 8.2 Devices Covered
 
@@ -503,12 +442,9 @@ end
 copy running-config startup-config
 ```
 
-These commands illustrate the configuration
-workflow described in the assignment.
+These commands illustrate the configuration workflow described in the assignment.
 
-The hostname helps identify the device,
-while saving the configuration preserves
-changes for subsequent restarts.
+The hostname helps identify the device, while saving the configuration preserves changes for subsequent restarts.
 
 ### 8.4 Router Configuration
 
@@ -532,16 +468,13 @@ end
 copy running-config startup-config
 ```
 
-The interface name is an example and
-depends on the simulated router model.
+The interface name is an example and depends on the simulated router model.
 
-The router's IP address allows it to
-communicate with devices on the connected subnet.
+The router's IP address allows it to communicate with devices on the connected subnet.
 
 ### 8.5 Client IP Configuration
 
-The original assignment documents the
-following PC configuration:
+The original assignment documents the following PC configuration:
 
 | Parameter | Configuration |
 |---|---|
@@ -559,8 +492,7 @@ following PC configuration:
 
 ### 8.6 Connectivity Testing
 
-The assignment tested connectivity
-between the PC and router.
+The assignment tested connectivity between the PC and router.
 
 **Command**
 
@@ -571,28 +503,22 @@ ping 192.168.1.1
 **Technical Explanation:**
 
 - The PC sends ICMP Echo Requests.
-- The target router responds when reachable
-  and configured to permit the requests.
-- Successful replies demonstrate
-  basic IP connectivity between the devices.
+- The target router responds when reachable and configured to permit the requests.
+- Successful replies demonstrate basic IP connectivity between the devices.
 
 ### Verification Result
 
-The original assignment documents
-successful ping communication.
+The original assignment documents successful ping communication.
 
-The supporting screenshot captures
-the network connectivity exercise.
+The supporting screenshot captures the network connectivity exercise.
 
 ### Technical Outcome
 
-Explored switch and router configuration,
-device identification, IPv4 settings,
-default gateways, and connectivity testing.
+Explored switch and router configuration, device identification, IPv4 settings, default gateways, and connectivity testing.
 
 ---
 
-## 9. Verification & Technical Results
+## ✅ 9. Verification & Technical Results
 
 | Assignment | Technical Coverage | Evidence / Learning |
 |---|---|---|
@@ -602,45 +528,39 @@ default gateways, and connectivity testing.
 | Network Classification | LAN, WAN, WLAN, MAN, PAN, CAN and SOHO | Conceptual study |
 | Device Simulation | Router, switch, PC configuration and ping | Network simulation and ping screenshots |
 
-The screenshots support the documented
-networking assignments and selected
-configuration and verification activities.
+The screenshots support the documented networking assignments and selected configuration and verification activities.
 
 ---
 
-## 10. Supporting Evidence
+## 📸 10. Supporting Evidence
 
 ### 10.1 Network Topology & Connectivity
 
-Network topology setup and connectivity
-between network components.
+Network topology setup and connectivity between network components.
 
 ![Network Topology](Screenshots/Network-Topology-and-Ping.png)
 
 ### 10.2 Ping Verification
 
-Command-line connectivity testing
-between network devices.
+Command-line connectivity testing between network devices.
 
 ![Connectivity Testing](Screenshots/Pinging-Output.png)
 
 ### 10.3 VLAN & Wireless Network Configuration
 
-VLAN segmentation and wireless
-network configuration activities.
+VLAN segmentation and wireless network configuration activities.
 
 ![VLAN and Wireless Network Configuration](Screenshots/VLAN-and-SSID-Configuration.png)
 
 ### 10.4 DHCP & DNS Configuration
 
-DHCP address allocation and
-DNS configuration exercises.
+DHCP address allocation and DNS configuration exercises.
 
 ![DHCP and DNS Configuration](Screenshots/DHCP-DNS-Configuration.png)
 
 ---
 
-## 11. Key Learning Outcomes
+## 🧠 11. Key Learning Outcomes
 
 - Understood network device roles and topology design.
 - Practiced IP addressing and basic network configuration.
@@ -658,17 +578,10 @@ DNS configuration exercises.
 
 ---
 
-## 12. Lab Summary
+## 🚀 12. Lab Summary
 
-This networking capstone covered network device
-configuration, IP addressing, VLANs, wireless networking,
-DHCP, DNS, network classification, and network simulation.
+This networking capstone covered network device configuration, IP addressing, VLANs, wireless networking, DHCP, DNS, network classification, and network simulation.
 
-The assignments combined practical network configuration
-and connectivity verification with theoretical study
-of enterprise networking concepts.
+The assignments combined practical network configuration and connectivity verification with theoretical study of enterprise networking concepts.
 
-The documented exercises and supporting screenshots
-demonstrate foundational networking knowledge relevant
-to cloud infrastructure, network operations,
-system administration, and DevOps engineering.
+The documented exercises and supporting screenshots demonstrate foundational networking knowledge relevant to cloud infrastructure, network operations, system administration, and DevOps engineering.
