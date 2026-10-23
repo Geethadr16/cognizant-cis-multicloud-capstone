@@ -65,7 +65,50 @@ This section documents monitoring concepts and capstone activities covered durin
 
 ## Evidence
 
-Screenshots from the capstone activities will be added below as supporting evidence.
+The following screenshots document monitoring activities performed or reviewed during the CIS Multicloud capstone training.
 
+### SolarWinds Orion – Network Monitoring
+
+**1. Adding a Network Device**
+
+Added a network device in SolarWinds Orion to explore device discovery and network monitoring.
+
+![SolarWinds Added Network Device](Screenshots/SolarWinds%20%E2%80%94%20Added%20network%20device.png)
+
+**2. Network Monitoring Dashboard**
+
+Reviewed the SolarWinds monitoring dashboard to observe monitored devices and their status.
+
+![SolarWinds Monitoring Dashboard](Screenshots/SolarWinds-%20Final%20monitoring%20dashboard.png)
+
+**3. Monitoring Alerts**
+
+Reviewed monitoring alert results to understand how infrastructure events and device issues are identified.
+
+![Monitoring Alert Result](Screenshots/Monitoring-Alert%20result.png)
+
+### Microsoft SCOM – Infrastructure Monitoring
+
+**4. SCOM Agent Deployment**
+
+Reviewed the SCOM agent deployment results for managed computer monitoring.
+
+![SCOM Agent Deployment](Screenshots/SCOM%20%E2%80%94%20Agent%20deployment%20result.png)
+
+**5. SCOM Management Packs**
+
+Explored SCOM management packs used to define monitoring configurations, rules, and workflows.
+
+![SCOM Management Packs](Screenshots/SCOM%20%E2%80%94%20Management%20packs.png)
+
+---
+
+## Skills Demonstrated
+
+- Network device discovery and monitoring using SolarWinds Orion
+- Monitoring dashboard navigation and alert analysis
+- SCOM agent deployment workflows
+- Management pack configuration concepts
+- Infrastructure monitoring and operational visibility
 ---
 
