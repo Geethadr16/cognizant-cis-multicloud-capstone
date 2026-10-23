@@ -1,5 +1,5 @@
 
-**☁️ Cognizant CIS Multicloud | Technical Capstone Portfolio
+☁️ Cognizant CIS Multicloud | Technical Capstone Portfolio
 
 ### Linux • Windows Server • Networking • Virtualization • Monitoring • Cloud Fundamentals
 
