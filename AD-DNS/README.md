@@ -1,20 +1,15 @@
 
-# Active Directory & DNS Administration Lab
+# 🖥️ Active Directory & DNS Administration Lab
 
-## 1. Overview
+## 📌 1. Overview
 
-This lab documents Windows Server DNS administration and
-Active Directory organizational structure exercises completed
-during Cognizant CIS Multicloud technical training.
+This lab documents Windows Server DNS administration and Active Directory organizational structure exercises completed during **Cognizant CIS Multicloud technical training**.
 
-The activities focused on DNS Server installation, forward and
-reverse lookup zones, DNS record management, client-side name
-resolution, and logical Active Directory organization.
+The activities focused on DNS Server installation, forward and reverse lookup zones, DNS record management, client-side name resolution, and logical Active Directory organization.
 
-The lab combined practical configuration, verification,
-and infrastructure administration concepts.
+The lab combined practical configuration, verification, and infrastructure administration concepts.
 
-## 2. Lab Environment
+## 🛠️ 2. Lab Environment
 
 | Component | Environment / Tool |
 |---|---|
@@ -26,25 +21,21 @@ and infrastructure administration concepts.
 | Directory Management | Active Directory Users and Computers |
 | Verification | Command Prompt, `ipconfig`, `nslookup` |
 
-## 3. Assignment Objectives
+## 🎯 3. Assignment Objectives
 
 The capstone covered three assignments:
 
-1. Install and configure the Windows Server DNS role,
-   forward and reverse lookup zones, and DNS records.
-2. Configure client DNS settings, verify name resolution,
-   and compare Windows DNS resolution behavior.
-3. Design an Active Directory organizational structure
-   and organize user and computer accounts.
+1. Install and configure the Windows Server DNS role, forward and reverse lookup zones, and DNS records.
+2. Configure client DNS settings, verify name resolution, and compare Windows DNS resolution behavior.
+3. Design an Active Directory organizational structure and organize user and computer accounts.
 
 ---
 
-## 4. Assignment 1 — DNS Server Administration
+## 🌐 4. Assignment 1 — DNS Server Administration
 
 ### Task 1: Install and Configure DNS Server
 
-**Objective:** Enable DNS services on Windows Server
-for internal name resolution.
+**Objective:** Enable DNS services on Windows Server for internal name resolution.
 
 #### Implementation Steps
 
@@ -57,13 +48,11 @@ for internal name resolution.
 7. Completed the installation wizard.
 8. Opened **DNS Manager** to verify the installed role.
 
-**Verification:** The DNS Server role was visible in
-the Windows Server administration environment.
+**Verification:** The DNS Server role was visible in the Windows Server administration environment.
 
 ### Task 2: Configure Forward and Reverse Lookup Zones
 
-**Objective:** Configure DNS zones for hostname and
-IP-address resolution.
+**Objective:** Configure DNS zones for hostname and IP-address resolution.
 
 #### Forward Lookup Zone
 
@@ -84,14 +73,11 @@ IP-address resolution.
 
 #### Technical Explanation
 
-A forward lookup zone stores records such as A and AAAA,
-allowing clients to resolve hostnames to IP addresses.
+A forward lookup zone stores records such as A and AAAA, allowing clients to resolve hostnames to IP addresses.
 
-A reverse lookup zone uses PTR records to support
-IP-address-to-hostname resolution.
+A reverse lookup zone uses PTR records to support IP-address-to-hostname resolution.
 
-The assignment covered dynamic DNS updates as part
-of the forward lookup zone configuration.
+The assignment covered dynamic DNS updates as part of the forward lookup zone configuration.
 
 ### Task 3: DNS Record Management
 
@@ -115,26 +101,21 @@ Record:   A
 
 #### MX Record
 
-An MX record identifies the mail exchanger responsible
-for receiving email for a domain.
+An MX record identifies the mail exchanger responsible for receiving email for a domain.
 
-The assignment covered MX record configuration,
-including a priority value of `10`.
+The assignment covered MX record configuration, including a priority value of `10`.
 
-MX records use a mail exchanger hostname together
-with a preference value.
+MX records use a mail exchanger hostname together with a preference value.
 
-**Verification Evidence:** DNS Manager screenshots
-document the DNS record-management exercise.
+**Verification Evidence:** DNS Manager screenshots document the DNS record-management exercise.
 
 ---
 
-## 5. Assignment 2 — DNS Client Configuration & Name Resolution
+## 🔍 5. Assignment 2 — DNS Client Configuration & Name Resolution
 
 ### Task 1: Configure DNS Client Settings
 
-**Objective:** Configure a Windows workstation to use
-the internal DNS service.
+**Objective:** Configure a Windows workstation to use the internal DNS service.
 
 #### Implementation Steps
 
@@ -146,13 +127,11 @@ the internal DNS service.
 6. Configured the preferred DNS server address.
 7. Applied the network settings.
 
-This configuration allows the workstation to direct
-DNS queries to the specified DNS server.
+This configuration allows the workstation to direct DNS queries to the specified DNS server.
 
 ### Task 2: Verify DNS Name Resolution
 
-**Objective:** Inspect the client's DNS configuration
-and test domain name resolution.
+**Objective:** Inspect the client's DNS configuration and test domain name resolution.
 
 #### Commands Used
 
@@ -170,19 +149,15 @@ nslookup company.local
 
 #### Documented Result
 
-The original lab report records successful name
-resolution using `nslookup`.
+The original lab report records successful name resolution using `nslookup`.
 
-The supporting command-line screenshot documents
-the DNS verification exercise.
+The supporting command-line screenshot documents the DNS verification exercise.
 
-This demonstrates the domain lookup performed
-during the lab.
+This demonstrates the domain lookup performed during the lab.
 
 ### Task 3: Compare DNS Resolution Across Windows Versions
 
-The assignment included a comparison of DNS resolution
-concepts across Windows client and server operating systems.
+The assignment included a comparison of DNS resolution concepts across Windows client and server operating systems.
 
 | Platform | DNS Concepts Reviewed |
 |---|---|
@@ -198,24 +173,19 @@ concepts across Windows client and server operating systems.
 - DNS configuration differences
 - DNS security and DNS-over-HTTPS concepts
 
-DNS resolution behavior and supported security features
-depend on the operating system version, network configuration,
-and applicable policies.
+DNS resolution behavior and supported security features depend on the operating system version, network configuration, and applicable policies.
 
-DNS-over-HTTPS is not universally enabled across
-Windows operating systems.
+DNS-over-HTTPS is not universally enabled across Windows operating systems.
 
-This comparison was part of the conceptual study
-included in the assignment.
+This comparison was part of the conceptual study included in the assignment.
 
 ---
 
-## 6. Assignment 3 — Active Directory Organizational Structure
+## 🏢 6. Assignment 3 — Active Directory Organizational Structure
 
 ### Task 1: Design a Logical AD Structure
 
-**Objective:** Design a manageable Active Directory
-structure for a hypothetical medium-sized organization.
+**Objective:** Design a manageable Active Directory structure for a hypothetical medium-sized organization.
 
 #### Lab Domain
 
@@ -235,13 +205,11 @@ company.local
 └── Users
 ```
 
-The structure organizes directory objects into
-departments and account categories.
+The structure organizes directory objects into departments and account categories.
 
 ### Task 2: Create Organizational Units
 
-The lab covered creating Organizational Units (OUs)
-using Active Directory Users and Computers.
+The lab covered creating Organizational Units (OUs) using Active Directory Users and Computers.
 
 #### OUs Included
 
@@ -253,13 +221,11 @@ using Active Directory Users and Computers.
 | Computers | Organize computer objects |
 | Users | Organize user accounts |
 
-Organizational Units provide logical containers
-for managing directory objects.
+Organizational Units provide logical containers for managing directory objects.
 
 ### Task 3: Organize User and Computer Accounts
 
-The assignment documented organizing user and
-computer objects within the Active Directory structure.
+The assignment documented organizing user and computer objects within the Active Directory structure.
 
 #### Administrative Benefits
 
@@ -271,18 +237,15 @@ computer objects within the Active Directory structure.
 
 #### Technical Explanation
 
-Active Directory Organizational Units help administrators
-organize and manage directory objects.
+Active Directory Organizational Units help administrators organize and manage directory objects.
 
-Group Policy Objects can be linked to appropriate
-sites, domains, and OUs to apply configuration policies.
+Group Policy Objects can be linked to appropriate sites, domains, and OUs to apply configuration policies.
 
-The screenshots document the OU structure and
-account hierarchy created during the lab.
+The screenshots document the OU structure and account hierarchy created during the lab.
 
 ---
 
-## 7. Verification & Technical Results
+## ✅ 7. Verification & Technical Results
 
 | Activity | Verification / Evidence |
 |---|---|
@@ -294,13 +257,11 @@ account hierarchy created during the lab.
 | Active Directory structure | OU structure screenshot |
 | User and computer organization | OU hierarchy screenshot |
 
-The documented activities demonstrate Windows Server
-DNS administration, client-side DNS verification,
-and logical Active Directory organization.
+The documented activities demonstrate Windows Server DNS administration, client-side DNS verification, and logical Active Directory organization.
 
 ---
 
-## 8. Supporting Evidence
+## 📸 8. Supporting Evidence
 
 ### 8.1 DNS Server Installation
 
@@ -310,8 +271,7 @@ DNS Server role installation and administrative verification.
 
 ### 8.2 Forward and Reverse Lookup Zones
 
-Configured forward and reverse lookup zones
-displayed in DNS Manager.
+Configured forward and reverse lookup zones displayed in DNS Manager.
 
 ![Forward and Reverse Lookup Zones](Screenshots/Forward-Reverse-Lookup-Zones.png)
 
@@ -347,7 +307,7 @@ User and computer organization within the directory structure.
 
 ---
 
-## 9. Key Learning Outcomes
+## 🧠 9. Key Learning Outcomes
 
 - Practiced Windows Server DNS role installation and management.
 - Configured forward and reverse lookup zones.
@@ -363,20 +323,12 @@ User and computer organization within the directory structure.
 
 ---
 
-## 10. Lab Summary
+## 🚀 10. Lab Summary
 
-This lab was completed as part of the Cognizant CIS
-Multicloud technical capstone training.
+This lab was completed as part of the Cognizant CIS Multicloud technical capstone training.
 
-It covered Windows Server DNS configuration, forward and
-reverse lookup zones, DNS record management, client-side
-name resolution, and Active Directory organizational
-structure.
+It covered Windows Server DNS configuration, forward and reverse lookup zones, DNS record management, client-side name resolution, and Active Directory organizational structure.
 
-The documented configuration steps and supporting
-screenshots demonstrate the technical activities and
-verification performed during the lab.
+The documented configuration steps and supporting screenshots demonstrate the technical activities and verification performed during the lab.
 
-These exercises strengthened foundational skills
-relevant to Windows Server administration, infrastructure
-management, cloud operations, and system administration.
+These exercises strengthened foundational skills relevant to Windows Server administration, infrastructure management, cloud operations, and system administration.
