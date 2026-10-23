@@ -85,6 +85,19 @@ Reviewed the environment variables required for Tomcat configuration:
 - Inter-process communication fundamentals
 - Virtual hosting, routing, and load balancing concepts
 
+
 ## Evidence
 
-Screenshots from the middleware capstone will be added here to demonstrate the documented activities.
+### Apache Tomcat – Server Connectivity Verification
+
+The following screenshot documents access to the Apache Tomcat welcome page through `http://localhost:8080`, demonstrating basic server connectivity.
+
+![Apache Tomcat Server](Screenshots/Apache-Tomcat-Server.png)
+
+## Skills Demonstrated
+
+- Apache Tomcat server connectivity verification
+- Understanding of Java application hosting
+- Middleware and client-server architecture fundamentals
+- Web server configuration concepts
+
